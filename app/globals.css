@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-ink text-cream font-sans;
+    /* Halo âmbar no topo + vinheta quente nas bordas: a sala iluminada por um abajur */
+    background-color: #1a1412;
+    background-image:
+      radial-gradient(
+        80% 55% at 50% -10%,
+        rgba(232, 167, 101, 0.12) 0%,
+        rgba(232, 167, 101, 0.04) 35%,
+        transparent 70%
+      ),
+      radial-gradient(
+        120% 120% at 50% 50%,
+        transparent 55%,
+        rgba(18, 13, 11, 0.55) 100%
+      );
+    background-attachment: fixed;
+    min-height: 100dvh;
+  }
+
+  /* A serif de título respira melhor com tracking levemente fechado */
+  .font-serif {
+    letter-spacing: -0.015em;
+  }
+}
+
+@layer utilities {
+  /* Texto que parece iluminado por dentro */
+  .text-glow {
+    text-shadow: 0 1px 30px rgba(232, 167, 101, 0.25);
+  }
+
+  /* Foco acessível e quente, no lugar do anel azul padrão */
+  .focus-ember {
+    @apply outline-none focus-visible:ring-2 focus-visible:ring-ember/70 focus-visible:ring-offset-2 focus-visible:ring-offset-ink;
+  }
+}
+
+/* Respeita quem prefere menos movimento */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

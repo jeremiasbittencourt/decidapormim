@@ -1,0 +1,434 @@
+
+> decida-por-mim@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 4.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 9.1s (1241 modules)
+ GET / 200 in 9582ms
+   Reload env: .env.local
+ ✓ Compiled in 10.9s (1223 modules)
+ ✓ Compiled /api/genres in 288ms (633 modules)
+ GET /api/genres?type=movie 502 in 397ms
+   Reload env: .env.local
+ ✓ Compiled in 506ms (1240 modules)
+ GET / 200 in 117ms
+ GET / 200 in 60ms
+ GET /api/genres?type=movie 200 in 507ms
+ ✓ Compiled /api/decide in 213ms (635 modules)
+ GET /api/decide?type=movie&genre=12&from=2010&to=2026 200 in 931ms
+ GET /api/decide?type=movie&genre=12&from=2010&to=2026&exclude=74264 200 in 499ms
+ GET /api/genres?type=movie 200 in 25ms
+ GET /api/decide?type=movie&genre=27&from=2010&to=2026 200 in 753ms
+ GET /api/decide?type=movie&genre=27&from=2010&to=2026&exclude=128452 200 in 473ms
+ GET /api/decide?type=movie&genre=27&from=2010&to=2026&exclude=128452%2C485774 200 in 463ms
+ GET /api/decide?type=movie&genre=27&from=2010&to=2026&exclude=128452%2C485774%2C607072 200 in 592ms
+ GET /api/decide?type=movie&genre=27&from=2010&to=2026&exclude=128452%2C485774%2C607072%2C346641 200 in 489ms
+ GET /api/genres?type=movie 200 in 46ms
+ GET /api/decide?type=movie&genre=16&from=1990&to=2009 200 in 808ms
+ GET /api/decide?type=movie&genre=16&from=1990&to=2009&exclude=129631 200 in 509ms
+ GET /api/decide?type=movie&genre=16&from=1990&to=2009&exclude=129631%2C12448 200 in 474ms
+ GET /api/decide?type=movie&genre=16&from=1990&to=2009&exclude=129631%2C12448%2C70438 200 in 303ms
+ GET /api/decide?type=movie&genre=16&from=1990&to=2009&exclude=129631%2C12448%2C70438%2C44730 200 in 483ms
+ GET /api/decide?type=movie&genre=16&from=1990&to=2009&exclude=129631%2C12448%2C70438%2C44730%2C13934 200 in 341ms
+ GET /api/decide?type=movie&genre=16&from=1990&to=2009&exclude=129631%2C12448%2C70438%2C44730%2C13934%2C619432 200 in 579ms
+ GET /api/decide?type=movie&genre=16&from=1990&to=2009&exclude=129631%2C12448%2C70438%2C44730%2C13934%2C619432%2C33868 200 in 613ms
+ GET /api/decide?type=movie&genre=16&from=1990&to=2009&exclude=129631%2C12448%2C70438%2C44730%2C13934%2C619432%2C33868%2C46921 200 in 523ms
+ ✓ Compiled in 2.9s (1240 modules)
+ ✓ Compiled in 531ms (633 modules)
+ ✓ Compiled in 84ms (633 modules)
+ ✓ Compiled in 366ms (602 modules)
+ ○ Compiling /api/decide ...
+ ✓ Compiled /api/decide in 947ms (633 modules)
+ GET /api/decide?type=movie&genre=16&from=1990&to=2009&exclude=129631%2C12448%2C70438%2C44730%2C13934%2C619432%2C33868%2C46921%2C359921 200 in 2294ms
+ ○ Compiling /api/genres ...
+ ✓ Compiled /api/genres in 641ms (635 modules)
+ GET /api/genres?type=movie 200 in 830ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026 200 in 493ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026&exclude=1087192 200 in 383ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026&exclude=1087192%2C1084242 200 in 448ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026&exclude=1087192%2C1084242%2C1497970 200 in 155ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026&exclude=1087192%2C1084242%2C1497970%2C765897 200 in 172ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026&exclude=1087192%2C1084242%2C1497970%2C765897%2C804370 200 in 510ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026&exclude=1087192%2C1084242%2C1497970%2C765897%2C804370%2C658224 200 in 203ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026&exclude=1087192%2C1084242%2C1497970%2C765897%2C804370%2C658224%2C926670 200 in 184ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026&exclude=1087192%2C1084242%2C1497970%2C765897%2C804370%2C658224%2C926670%2C1175942 200 in 169ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026&exclude=1087192%2C1084242%2C1497970%2C765897%2C804370%2C658224%2C926670%2C1175942%2C1117857 200 in 166ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026&exclude=1087192%2C1084242%2C1497970%2C765897%2C804370%2C658224%2C926670%2C1175942%2C1117857%2C1327819 200 in 193ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026&exclude=1087192%2C1084242%2C1497970%2C765897%2C804370%2C658224%2C926670%2C1175942%2C1117857%2C1327819%2C1297842 200 in 295ms
+ GET /api/decide?type=movie&genre=10751&from=2025&to=2026&exclude=1087192%2C1084242%2C1497970%2C765897%2C804370%2C658224%2C926670%2C1175942%2C1117857%2C1327819%2C1297842%2C1671548 200 in 560ms
+ GET /api/genres?type=tv 200 in 318ms
+ GET /api/decide?type=tv&genre=10765&from=2025&to=2026 200 in 515ms
+ GET /api/decide?type=tv&genre=10765&from=2025&to=2026&exclude=231003 200 in 212ms
+ GET /api/decide?type=tv&genre=10765&from=2025&to=2026&exclude=231003%2C232230 200 in 498ms
+ GET /api/decide?type=tv&genre=10765&from=2025&to=2026&exclude=231003%2C232230%2C281666 200 in 157ms
+ GET /api/genres?type=movie 200 in 24ms
+ GET /api/decide?type=movie&genre=28&from=2010&to=2024 200 in 741ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.5s (1245 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 1134ms
+ GET /api/decide?type=tv&genre=10765&from=2025&to=2026&exclude=231003%2C232230%2C281666%2C249907 200 in 475ms
+ GET /api/decide?type=tv&genre=10765&from=2025&to=2026&exclude=231003%2C232230%2C281666%2C249907%2C289219 200 in 317ms
+ GET /api/decide?type=tv&genre=10765&from=2025&to=2026&exclude=231003%2C232230%2C281666%2C249907%2C289219%2C279182 200 in 157ms
+ GET /api/decide?type=tv&genre=10765&from=2025&to=2026&exclude=231003%2C232230%2C281666%2C249907%2C289219%2C279182%2C138503 200 in 169ms
+ GET /api/genres?type=tv 200 in 46ms
+ GET /api/genres?type=tv 200 in 30ms
+ GET /api/decide?type=tv&genre=37&from=1920&to=1959 200 in 955ms
+ GET /api/decide?type=tv&genre=37&from=1920&to=1959&exclude=1018 200 in 477ms
+ GET /api/decide?type=tv&genre=37&from=1920&to=1959&exclude=1018%2C10794 200 in 300ms
+ GET /api/decide?type=tv&genre=37&from=1920&to=1959&exclude=1018%2C10794%2C6081 200 in 299ms
+ GET /api/decide?type=tv&genre=37&from=1920&to=1959&exclude=1018%2C10794%2C6081%2C947 200 in 343ms
+ GET /api/decide?type=movie&genre=28&from=2010&to=2024&exclude=330459,999999 200 in 613ms
+ GET /api/decide?type=movie&genre=18&from=2025&to=2026 200 in 361ms
+ GET /api/genres?type=movie 200 in 32ms
+ GET /api/decide?type=movie&genre=10770&from=2010&to=2024 200 in 603ms
+ GET /api/decide?type=movie&genre=10770&from=2010&to=2024&exclude=282848 200 in 603ms
+ GET /api/decide?type=movie&genre=10770&from=2010&to=2024&exclude=282848%2C301959 200 in 769ms
+ GET /api/decide?type=movie&genre=10770&from=2010&to=2024&exclude=282848%2C301959%2C988428 200 in 159ms
+ GET /api/decide?type=movie&genre=10770&from=2010&to=2024&exclude=282848%2C301959%2C988428%2C537061 200 in 161ms
+ GET /api/genres?type=movie 200 in 46ms
+ GET /api/decide?type=movie&genre=28&from=2025&to=2026 200 in 490ms
+ GET /api/decide?type=movie&genre=28&from=2025&to=2026&exclude=911430 200 in 39ms
+ GET /api/decide?type=movie&genre=28&from=2025&to=2026&exclude=911430%2C926670 200 in 705ms
+ GET /api/decide?type=movie&genre=28&from=2025&to=2026&exclude=911430%2C926670%2C1195506 200 in 175ms
+ GET /api/decide?type=movie&genre=28&from=2025&to=2026&exclude=911430%2C926670%2C1195506%2C987400 200 in 464ms
+ GET /api/decide?type=movie&genre=28&from=2025&to=2026&exclude=911430%2C926670%2C1195506%2C987400%2C1356039 200 in 623ms
+ GET /api/decide?type=movie&genre=28&from=2025&to=2026&exclude=911430%2C926670%2C1195506%2C987400%2C1356039%2C1512623 200 in 342ms
+ GET /api/decide?type=movie&genre=28&from=2025&to=2026&exclude=911430%2C926670%2C1195506%2C987400%2C1356039%2C1512623%2C980477 200 in 526ms
+ GET /api/decide?type=movie&genre=28&from=2025&to=2026&exclude=911430%2C926670%2C1195506%2C987400%2C1356039%2C1512623%2C980477%2C1242898 200 in 453ms
+ GET /api/genres?type=tv 200 in 17ms
+ ✓ Compiled in 180ms (635 modules)
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:33:42)
+digest: "3196118720"
+TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:33:42)
+    at require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:40:20064)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108376
+    at ea (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108583)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:110813
+    at Object._fromJSON (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:111370)
+    at JSON.parse (<anonymous>)
+    at ec (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:109078)
+    at eo (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108123)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115291
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115308
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115341
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115358
+    at t (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115581)
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at Object.__webpack_require__ [as require] (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:33:42)
+    at require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:40:20064)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108376
+    at ea (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108583)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:110813
+    at Object._fromJSON (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:111370)
+    at JSON.parse (<anonymous>)
+    at ec (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:109078)
+    at eo (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:108123)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115291
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115308
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115341
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115358
+    at t (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:115581) {
+  page: '/'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2s (1469 modules)
+ GET / 500 in 3998ms
+ ✓ Compiled in 451ms (674 modules)
+ GET / 200 in 312ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1328ms (1470 modules)
+ GET /_next/static/css/app/layout.css?v=1780982707165 404 in 1538ms
+ GET /_next/static/chunks/main-app.js?v=1780982707165 404 in 1558ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 1474ms
+ GET /_next/static/chunks/app/page.js 404 in 46ms
+ ✓ Compiled in 97ms (644 modules)
+ ✓ Compiled in 4.6s (1453 modules)
+ ✓ Compiled in 276ms (1453 modules)
+ ✓ Compiled in 416ms (1453 modules)
+ ✓ Compiled /api/genres in 276ms (674 modules)
+ GET /api/genres?type=tv 200 in 332ms
+ ✓ Compiled /api/decide in 132ms (676 modules)
+ GET /api/decide?type=movie&genre=28&from=2010&to=2024 200 in 880ms
+ GET /api/decide?type=tv&genre=18&from=2010&to=2024 200 in 429ms
+ ⨯ Error: Cannot find module './276.js'
+Require stack:
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\app\api\decide\route.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\build\utils.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:203:28)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:167:22)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\app\page.js:9:138517
+    at Object.<anonymous> (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\app\page.js:9:138562)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\base-server.js:818:17)
+    at async C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\.next\\server\\app\\api\\decide\\route.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\app\api\decide\route.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\build\utils.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:203:28)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:167:22)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\pages\_document.js:1:335
+    at Object.<anonymous> (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\pages\_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\.next\\server\\app\\api\\decide\\route.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ GET / 500 in 974ms
+ ⨯ Error: Cannot find module './276.js'
+Require stack:
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\app\api\decide\route.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\build\utils.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:203:28)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:167:22)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\app\page.js:9:138517
+    at Object.<anonymous> (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\app\page.js:9:138562)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\base-server.js:818:17)
+    at async C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\.next\\server\\app\\api\\decide\\route.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\app\api\decide\route.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\build\utils.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:203:28)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\webpack-runtime.js:167:22)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\pages\_document.js:1:335
+    at Object.<anonymous> (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\pages\_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\.next\\server\\app\\api\\decide\\route.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\jeremias.bittencourt\\Documents\\personal\\decidapormim\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ GET / 500 in 25ms
+ ○ Compiling /_not-found ...
+ GET / 404 in 7002ms
+ ✓ Compiled /_not-found in 8.4s (1453 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\app\api'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/decide/route' in C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\app\api\decide\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/decide/route' in 'C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/decide/route (expected C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\.next\server\app\api\decide\route.js)
+<w>  at file dependencies C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\jeremias.bittencourt\Documents\personal\decidapormim\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
